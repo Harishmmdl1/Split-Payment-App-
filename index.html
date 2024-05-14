@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Payment App</title>
+
+    <link rel="stylesheet" href="../CSS/splitPayment.css">
+
+
+</head>
+<body>
+
+    <div id="main">
+
+        
+        <div id="container">
+            
+            <h1>Split Your Bills <img src="https://img.icons8.com/?size=256&id=105067&format=png" alt="" width="50px"></h1>
+            
+            <form>
+                
+                
+                <label for="amount"> <h3> Amount to pay (₹) </h3></label>
+                <div class="centre">
+
+                    <input type="text" autocomplete="off" id="amount" placeholder="0">
+                </div>
+                
+                <br>
+                
+                
+                <label for="persons"> <h3> Number of people</h3> </label>
+                <br>
+                <div class="centre">
+
+                    <button id="decrement">-</button><input type="text" autocomplete="off" id="persons" placeholder=""><button id="increment">+</button>
+                </div>
+                
+                <br>
+                
+
+                
+                <div class="centre">
+                    
+                    <button type="sumbit" id="split" class="split_button">Split</button>
+                </div>
+                
+                
+                
+            </form>
+            
+            <br>
+            
+
+
+            
+            <h3>Total amount to pay by each person</h3>
+            <h2 id="splitted_amount"></h2>
+
+            <div class="result" style="display: none;">
+
+                <button id="calculateBillAgain">Calculate Again</button>
+            
+            </div>
+            
+        </div>
+        
+        <script src="../JS/splitPayment.js"></script>
+    </div>
+        
+    </body>
+    </html>

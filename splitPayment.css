@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#container  h1, h2, h3 {
+    text-shadow: 2px 2px rgb(220, 220, 220);
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin: 10px;
+    font-size: 2em;
+}
+
+#container input {
+   
+    align-items: center;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+.centre, .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.split_button, #calculateBillAgain{
+    
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+#increment, #decrement{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
